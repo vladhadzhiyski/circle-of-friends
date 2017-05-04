@@ -1,7 +1,4 @@
 class Processor
-
-  HEADERS = ["people", "relationships"].freeze
-
   attr_reader :people, :results, :relationships
 
   def initialize(filepath)

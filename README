@@ -1,0 +1,26 @@
+Problem: How big is your circle?
+
+Scenario: There are  N  people and  M  relationships of the form  x y , which means that person  x  and person  y  are friends. If two people are not direct friends, if there is a mutual friend, then they are considered indirect friends. Your job is to build a task to return the total of friends (direct + indirect) of each person by processing the input file.
+
+Restraint:
+1 ≤ N ≤ 105
+1 ≤ M ≤ 105
+1 ≤ x,y ≤ N
+
+Input:
+The first line consists of two integers  N  and  M  denoting the total people and the total relationships respectively. The next  M  lines consists of two integers  x  and  y  denoting that person  x  and person  y  are direct friends.  x  and  y  can never be equal and there will be no duplicated relationship.
+
+SAMPLE INPUT:
+4 3
+4 3
+2 4
+2 3
+
+SAMPLE OUTPUT: 0 2 2 2
+
+For the sample test case above:
+- There are 4 people a nd 3 relationships
+- Person 1 has no friends.
+- Person 2’s total friends are 2 (3 and 4)
+- Person 3’s total friends are 2 (2 and 4)
+- Person 4’s total friends are 2 (2 and 3)

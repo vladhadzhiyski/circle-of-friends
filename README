@@ -1,3 +1,8 @@
+How to run:
+> ./launcher.rb input.txt
+
+SAMPLE OUTPUT: 0 2 2 2 (based on the existing 'input.txt' file)
+
 Problem: How big is your circle?
 
 Scenario: There are  N  people and  M  relationships of the form  x y , which means that person  x  and person  y  are friends. If two people are not direct friends, if there is a mutual friend, then they are considered indirect friends. Your job is to build a task to return the total of friends (direct + indirect) of each person by processing the input file.
